@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quadraton</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]}
+  });
+</script>
+    <script type="text/javascript" src="node_modules/mathjax/MathJax.js?config=TeX-AMS_HTML-full"></script>
+</head>
+<body>
+<div class="header">
+    <h1>Ecuación Cuadrática</h1>
+    <p>Cuando $a \ne 0$, hay dos soluciones a \(ax^2 + bx + c = 0\) y son: </p>
+</div>
+
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+
+<div class="page-wrap">
+<table>
+    <tr>
+        <td>$a$</td>
+        <td><div class="size-field">
+            <input id="a" class="effect-8" type="number" placeholder="Valor de variable a">
+            <span class="focus-border"> <i></i> </span>
+        </div>
+        </td>
+    </tr>
+    <tr>
+        <td>$b$</td>
+        <td><div class="size-field">
+            <input id="b" class="effect-8" type="number" placeholder="Valor de variable b">
+            <span class="focus-border"> <i></i> </span>
+        </div>
+        </td>
+    </tr>
+    <tr>
+        <td>$c$</td>
+        <td><div class="size-field">
+            <input id="c" class="effect-8" type="number" placeholder="Valor de variable c">
+            <span class="focus-border"> <i></i> </span>
+        </div>
+        </td>
+    </tr>
+</table>
+</div>
+
+</body>
+</html>
